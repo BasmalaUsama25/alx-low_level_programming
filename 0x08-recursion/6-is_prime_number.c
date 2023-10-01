@@ -4,7 +4,7 @@
  * check_if_prime - check if number is prime ot no
  *
  * @n: number to check if prime
- * @y: iterator
+ * @b: iterator
  *
  * Return: 1 if prime, 0 otherwise
  */
