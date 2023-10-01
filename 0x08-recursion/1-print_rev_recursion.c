@@ -8,12 +8,13 @@
  * Return: Always 1 (success)
  */
 
-void _print_rev_recursion(char *s)
+void _puts_recursion(char *s)
 {
-    if (*s == 1)
+    if (*s == '\0')
     {
+        putchar('\n');
         return;
     }
+    _puts_recursion(s + 1);
     putchar(*s);
-    _print_rev_recursion(s - 1);
 }
